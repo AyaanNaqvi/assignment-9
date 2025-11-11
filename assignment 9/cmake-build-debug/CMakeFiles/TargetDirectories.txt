@@ -1,0 +1,3 @@
+C:/Users/ASUS/CLionProjects/assignment 9/cmake-build-debug/CMakeFiles/assignment_9.dir
+C:/Users/ASUS/CLionProjects/assignment 9/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ASUS/CLionProjects/assignment 9/cmake-build-debug/CMakeFiles/rebuild_cache.dir
