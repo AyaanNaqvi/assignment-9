@@ -1,0 +1,29 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+void dfs(int start,vector<vector<int>>&l,vector<bool>&visited) {
+visited[start]=true;
+    cout<<start;
+
+    for (int i: l[start]) {
+        if (!visited[i]) {
+            dfs(i,l,visited);
+        }
+    }
+
+}
+
+
+    int main() {
+        vector<vector<int>> l = {
+            {1, 2},
+            {0, 3},
+            {0, 3},
+            {1, 2}
+        };
+
+        vector<bool> visited(l.size(), false);
+        dfs(0, l, visited);
+    }
